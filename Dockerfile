@@ -7,7 +7,7 @@ RUN apt-get update \
  && rm -Rf /var/www/html/*
 
 # Copie des fichiers
-ADD static-website-example/ /var/www/html/
+ADD index.html /var/www/html/
 
 # Variable de port par défaut
 ENV PORT=80
