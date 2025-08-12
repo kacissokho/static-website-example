@@ -1,7 +1,6 @@
 pipeline {
      environment {
-       IMAGE_NAME = "staticwebsiteexample
-"
+       IMAGE_NAME = "staticwebsiteexample"
        IMAGE_TAG = "latest"
        STAGING = "kacissokho-staging"
        PRODUCTION = "kacissokho-production"
